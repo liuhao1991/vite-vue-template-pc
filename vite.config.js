@@ -2,7 +2,7 @@
  * @Author: lh@metgs.com
  * @Date: 2022-07-04 16:39:54
  * @LastEditors: lh@metgs.com
- * @LastEditTime: 2022-07-04 16:59:41
+ * @LastEditTime: 2022-07-04 17:46:53
  * @Description: ...
  */
 import path from 'path';
@@ -29,6 +29,6 @@ export default defineConfig({
     },
   },
   build: {
-    sourcemap: false,
+    sourcemap: true,
   },
 });
