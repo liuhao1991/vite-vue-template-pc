@@ -2,7 +2,7 @@
  * @Author: lh@metgs.com
  * @Date: 2022-07-04 16:39:54
  * @LastEditors: lh@metgs.com
- * @LastEditTime: 2022-07-04 17:46:53
+ * @LastEditTime: 2022-07-04 18:14:14
  * @Description: ...
  */
 import path from 'path';
@@ -10,6 +10,7 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import eslintPlugin from 'vite-plugin-eslint';
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons';
+// import Unocss from 'unocss/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -21,6 +22,7 @@ export default defineConfig({
       // Specify symbolId format
       symbolId: 'icon-[name]',
     }),
+    // Unocss(),
   ],
   resolve: {
     // 配置路径别名

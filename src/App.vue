@@ -2,7 +2,7 @@
  * @Author: lh@metgs.com
  * @Date: 2022-07-04 16:39:54
  * @LastEditors: lh@metgs.com
- * @LastEditTime: 2022-07-04 17:23:15
+ * @LastEditTime: 2022-07-04 18:14:09
  * @Description: ...
 -->
 <script setup>
@@ -28,7 +28,7 @@ import SvgIcon from './components/SvgIcon.vue';
 
 
     <p>
-      vue-router, pinia, svg, element-plus, less, eslint, editorconfig,
+      vue-router, pinia, svg, element-plus, less, eslint, editorconfig
     </p>
     <el-button type="primary">
       <SvgIcon name="user" color="#fff" />点我
