@@ -2,7 +2,7 @@
  * @Author: lh@metgs.com
  * @Date: 2021-12-06 11:29:39
  * @LastEditors: lh@metgs.com
- * @LastEditTime: 2022-07-04 16:55:05
+ * @LastEditTime: 2022-07-05 10:24:29
  * @Description: ...
  */
 const isProduction = process.env.NODE_ENV === 'production';
@@ -35,7 +35,8 @@ module.exports = {
     'no-debugger': isProduction ? 2 : 0,
     'no-unused-vars': isProduction ? 2 : 0, // Used for debug
     'no-unreachable': isProduction ? 2 : 0, // Used for debug
-    'space-before-function-paren': [2, 'always'],
+    'space-before-function-paren': ['error', 'always'],
+    'space-infix-ops': 'error',
     'func-call-spacing': 2,
     'block-spacing': 2,
     'semi-spacing': 2,
